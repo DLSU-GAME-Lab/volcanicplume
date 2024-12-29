@@ -1144,7 +1144,7 @@ void scene_model::export_spheres()
 
 void scene_model::setup_data(std::map<std::string,GLuint>& shaders, scene_structure& scene, gui_structure& gui)
 {
-    std::string base_path = "X:/GithubProjects/volcanicplume/code_plume/";
+    std::string base_path = "X:/GithubProjects/volcanicplume/";
 
     // begin with timer stopped
     timer.stop();

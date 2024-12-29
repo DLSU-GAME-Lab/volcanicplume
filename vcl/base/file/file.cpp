@@ -34,7 +34,7 @@ void assert_file_exist(const std::string& filename)
 std::string read_file_text(const std::string& path)
 {
     // Open file
-    std::string base_path = "X:/GithubProjects/volcanicplume/code_plume/";
+    std::string base_path = "X:/GithubProjects/volcanicplume/";
     std::string modifiedFileName = base_path + path;
 
     assert_file_exist(modifiedFileName);
